@@ -1,99 +1,99 @@
-.main {
-  position: sticky;
-  top: 0px;
-  background: fixed;
-  background-color: white;
-}
 body {
-  flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.main {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.main .right {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.button,
+.button1,
+.button4,
+.button42 {
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 12px;
 }
 
 .button {
-  background-color: blue;
-  text-align: center;
-  width: 150px;
-  height: 50px;
-  border-radius: 12px;
-  color: aliceblue;
-  transition: 0.3s ease;
-  cursor: pointer;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
 }
+
 .button:hover {
-  background-color: #04aa6d;
-  color: black;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #04aa6d;
+    color: black;
 }
+
 .button1 {
-  cursor: pointer;
-  border-color: blue;
-  color: blue;
-  background-color: white;
-  height: 75px;
-  border-radius: 12px;
-  margin-top: 3.5%;
-  transition: 0.3s ease;
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    padding: 15px 30px;
 }
+
 .button1:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  background-color: blue;
-  color: white;
+    background-color: blue;
+    color: white;
 }
-ul {
-  list-style: none;
-  overflow: hidden;
-}
-ul li {
-  float: left;
-  margin-inline-end: 0.5%;
-}
-li {
-  margin: 1%;
-}
-.brand1 {
-  list-style: circle;
-  margin-right: 90px;
-}
-.brand4 {
-  list-style: circle;
-  margin-right: 90px;
-}
-.brand7 {
-  list-style: circle;
-  margin-right: 90px;
-}
-.button4 {
-  text-align: center;
-  border: none;
-  transition: 0.3s ease;
-  cursor: pointer;
-}
-.button4:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-.button4div {
-  display: flex;
-  justify-content: space-evenly;
-}
+
+.button4div,
 .button4div2 {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
-.button42 {
-  cursor: pointer;
-  border-color: white;
-  color: blue;
-  background-color: white;
-  height: 75px;
-  border-radius: 12px;
-  margin-top: 3.5%;
-  transition: 0.3s ease;
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
-.button42:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  background-color: blue;
-  color: white;
+
+.hero-text {
+    width: 40%;
+}
+
+.hero-image {
+    width: 60%;
+    height: 375px;
+    object-fit: cover;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Experience Section */
+.experience {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.experience-text {
+    width: 50%;
+}
+
+/* Centered Text */
+.text-center {
+    text-align: center;
 }
