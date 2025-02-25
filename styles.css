@@ -1,7 +1,9 @@
+/* Updated styles.css with fixes */
+
 .main {
     position: sticky;
     top: 0px;
-    background: fixed;
+    background-attachment: fixed;
     background-color: white;
 }
 body {
@@ -51,14 +53,8 @@ ul li {
 li {
     margin: 1%;
 }
-.brand1 {
-    list-style: circle;
-    margin-right: 90px;
-}
-.brand4 {
-    list-style: circle;
-    margin-right: 90px;
-}
+.brand1,
+.brand4,
 .brand7 {
     list-style: circle;
     margin-right: 90px;
@@ -73,10 +69,7 @@ li {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
         0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.button4div {
-    display: flex;
-    justify-content: space-evenly;
-}
+.button4div,
 .button4div2 {
     display: flex;
     justify-content: space-evenly;
